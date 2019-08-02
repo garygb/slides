@@ -1,0 +1,4 @@
+---- get_page Matches (3 in 0 files) ----
+pmm.c (kern\mm) line 397 : //get_page - get related Page struct for linear address la using PDT pgdir
+pmm.c (kern\mm) line 399 : get_page(pde_t *pgdir, uintptr_t la, pte_t **ptep_store) {
+check_pgdir in pmm.c (kern\mm) :     assert(get_page(boot_pgdir, 0x0, NULL) == NULL);

